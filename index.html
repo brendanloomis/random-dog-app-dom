@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Random Dog App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+        <h1>Random Dog App</h1>
+      </header>
+      <main>
+        <p>How many random dog pictures do you want to see?</p>
+        <form>
+             <label for="quantity">Enter a number between 1 and 50:</label>
+             <input type="number" id="quantity" name="quantity" min="1" max="50" value="3">
+             <button type="submit">Submit</button>
+         </form>
+        <div class="results hidden">
+          <p>Here are your dog pictures!</p>
+          <div class="img-results"></div>
+        </div>
+      </main>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

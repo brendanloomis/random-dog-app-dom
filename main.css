@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CFCCD6;
+}
+
+.wrapper {
+    margin: auto;
+    width: 500px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p {
+    font-size: 19px;
+}
+
+.hidden {
+    display: none;
+}
+
+.img-results {
+    max-width: 500px;
+}
+
